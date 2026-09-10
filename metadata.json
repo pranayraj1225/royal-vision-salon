@@ -1,0 +1,6 @@
+{
+  "name": "Royal Vision Salon",
+  "description": "Professional salon and beauty services delivered with care, patience and attention to detail in Suchitra, Jeedimetla, Hyderabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
