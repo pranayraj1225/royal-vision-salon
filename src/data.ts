@@ -1,6 +1,7 @@
 import skinFacialImg from './assets/images/regenerated_image_1789039245539.jpg';
 import nailsHandsImg from './assets/images/regenerated_image_1789039265742.jpg';
 import makeupImg from './assets/images/regenerated_image_1789039289104.jpg';
+import hairImg from './assets/images/regenerated_image_1789193363815.jpg';
 
 export const reviews = [
   {
@@ -39,7 +40,7 @@ export const services = [
   {
     category: "HAIR",
     description: "Refresh your look with professional styling and attentive service.",
-    image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80",
+    image: hairImg,
     items: [
       "Haircuts",
       "Hair Styling",

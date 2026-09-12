@@ -1,3 +1,5 @@
+import aboutImg from '../assets/images/regenerated_image_1789193362115.jpg';
+
 export function About() {
   return (
     <section id="about" className="py-24 bg-secondary text-primary">
@@ -38,7 +40,7 @@ export function About() {
           {/* Image */}
           <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:max-w-none">
             <img
-              src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1200&q=80"
+              src={aboutImg}
               alt="Professional styling at Royal Vision Salon"
               className="w-full h-full object-cover rounded-sm shadow-2xl"
               referrerPolicy="no-referrer"

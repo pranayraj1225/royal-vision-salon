@@ -1,3 +1,5 @@
+import hairSectionImg from '../assets/images/regenerated_image_1789193364847.jpg';
+
 export function HairSection() {
   return (
     <section className="py-24 bg-secondary text-primary relative overflow-hidden">
@@ -40,7 +42,7 @@ export function HairSection() {
           <div className="w-full lg:w-7/12 relative">
             <div className="aspect-[4/3] w-full">
               <img
-                src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1200&q=80"
+                src={hairSectionImg}
                 alt="Professional hair styling"
                 className="w-full h-full object-cover rounded-sm shadow-xl"
                 referrerPolicy="no-referrer"
