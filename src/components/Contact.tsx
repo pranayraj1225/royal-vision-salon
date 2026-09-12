@@ -53,7 +53,7 @@ export function Contact() {
                 WhatsApp
               </a>
               <a
-                href="https://goo.gl/maps/search/?api=1&query=Royal+Vision+Salon+Pipeline+Colony+Suchitra+Jeedimetla+Hyderabad"
+                href="https://www.google.com/maps/place/Royal+Vision+Salon/@17.5133048,78.4740044,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb9178f337d689:0x8175706c7516a5c1!8m2!3d17.5133048!4d78.4740044!16s%2Fg%2F11h9gqcl7s?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-accent text-primary hover:bg-accent-hover transition-all duration-300 text-xs font-semibold tracking-widest uppercase text-center"
@@ -66,7 +66,7 @@ export function Contact() {
           <div className="w-full h-[400px] lg:h-[600px] bg-white/5 rounded-sm overflow-hidden ring-1 ring-white/10">
             {/* Minimal static map placeholder. In a real app with API keys, use an actual Google Map embed. */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15220.170566371728!2d78.4619472!3d17.5055039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb904ab7030807%3A0x7c4dd9afb21a8d9b!2sSuchitra%20Cross%20Roads%2C%20Jeedimetla%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15219.0!2d78.4740044!3d17.5133048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9178f337d689%3A0x8175706c7516a5c1!2sRoyal%20Vision%20Salon!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0, filter: 'grayscale(100%) invert(92%) contrast(83%)' }} 

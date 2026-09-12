@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Star } from 'lucide-react';
+import heroImg from '../assets/images/regenerated_image_1789036224348.png';
 
 export function Hero() {
   return (
@@ -7,7 +7,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1920&q=80"
+          src={heroImg}
           alt="Royal Vision Salon Interior"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -41,7 +41,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="max-w-2xl text-secondary/80 text-lg md:text-xl font-light text-balance mb-10"
+          className="max-w-2xl text-secondary/80 text-lg md:text-xl font-light text-balance mb-10 italic"
         >
           Professional salon and beauty services delivered with care, patience and attention to detail.
         </motion.p>
@@ -65,43 +65,7 @@ export function Hero() {
             Explore Services
           </a>
         </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 1 }}
-          className="flex flex-col items-center space-y-2 border border-white/20 p-4 backdrop-blur-sm bg-primary/30"
-        >
-          <div className="flex items-center space-x-1 text-accent">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} size={16} fill="currentColor" />
-            ))}
-          </div>
-          <p className="text-secondary font-semibold tracking-widest text-xs uppercase">
-            4.9 Google Rating
-          </p>
-          <p className="text-secondary/60 text-[10px] tracking-wider uppercase">
-            51+ Reviews
-          </p>
-        </motion.div>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center"
-      >
-        <span className="text-secondary/50 text-xs tracking-widest uppercase mb-2">Scroll</span>
-        <div className="w-px h-12 bg-secondary/30 relative overflow-hidden">
-          <motion.div
-            animate={{ y: [0, 48, 48] }}
-            transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
-            className="absolute top-0 left-0 w-full h-1/2 bg-accent"
-          />
-        </div>
-      </motion.div>
     </section>
   );
 }
